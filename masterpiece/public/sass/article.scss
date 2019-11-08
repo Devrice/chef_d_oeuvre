@@ -1,0 +1,125 @@
+
+  /* NAV BAR */
+  nav {
+    margin-top: -7;
+    float: right;
+    animation: forwards;
+    animation-iteration-count: infinite;
+    animation-fill-mode: forwards;
+    background: linear-gradient(to left, rgb(255, 255, 255), rgb(226, 237, 248));
+    color: black;
+    height: 50px;
+    width: 80%;
+    position: fixed;
+    border-radius: 0 0 400px;
+    z-index: 1;
+    animation-fill-mode: forwards;
+  }
+  
+  nav li {
+    float: right;
+    display: inline-block;
+    word-spacing: 3px;
+    width: 175px;
+  }
+  
+  nav li a {
+    text-decoration: none;
+  }
+  
+  nav li a:hover {
+    cursor: pointer;
+    color: rgb(43, 159, 226);
+  }
+  
+  nav li:hover {
+    cursor: pointer;
+    color: rgb(43, 137, 226);
+  }
+  
+  .header-article {
+    height: 60vh;
+    background: url(media/section.png);
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+    animation-duration: 2s;
+    animation-name: slidedown;
+  }
+  
+  @keyframes slidedown {
+    from {
+      height: 100vh;
+    }
+  
+    to {
+      height: 60vh;
+    }
+  }
+  
+  .header-article h1 {
+    margin-top: 8%;
+    position: absolute;
+    font-size: 4em;
+    color: #fff;
+    top: 20%;
+    left: 20%;
+  }
+  
+  .photo {
+    margin-left: 10%;
+    margin-top: 15px;
+    background: rgb(63, 63, 63);
+    width: 400px;
+    height: 300px;
+  }
+  
+  .chapo {
+    font-size: 16px;
+    position: absolute;
+    margin-left: 50%;
+    margin-top: 16px;
+    max-width: 400px;
+  }
+  
+  .sub-text {
+    position: absolute;
+    margin-top: 25%;
+    max-width: 400px;
+    font-size: 16px;
+  }
+  
+  .contact-title h2 {
+    margin-top: 20%;
+    text-align: center;
+  }
+  
+  form {
+    margin-left: 45%;
+  }
+  
+  .form-control {
+    width: 600px;
+    margin-left: -35%;
+    background: transparent;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid gray;
+    font-size: 18px;
+    margin-bottom: 45px;
+  }
+  
+  form .submit {
+    margin-top: 90px;
+    margin-left: -70%;
+    width: 400px;
+    color: white;
+    background: rgb(83, 171, 223);
+    border-radius: 5px;
+  }
+  
+  form .submit:hover {
+    cursor: pointer;
+    background: rgb(182, 235, 243);
+  }
+  

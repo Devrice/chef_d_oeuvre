@@ -1,0 +1,94 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+// nav {
+//   float: right;
+//   background: linear-gradient(to left, rgb(255, 255, 255), rgb(226, 237, 248));
+//   color: black;
+//   height: 50px;
+//   width: 80%;
+//   border-radius: 0 0 400px;
+//   position: fixed;
+//   z-index: 1;
+// }
+
+nav li {
+  float: right;
+  display: inline-block;
+  word-spacing: 3px;
+  width: 175px;
+}
+
+nav li a {
+  text-decoration: none;
+}
+
+nav li a:hover {
+  cursor: pointer;
+  color: rgb(43, 159, 226);
+}
+
+nav li:hover {
+  cursor: pointer;
+  color: rgb(43, 137, 226);
+}
+
+.slider {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  background: linear-gradient(to left, rgb(255, 255, 255), rgb(226, 237, 248));
+  z-index: -1;
+}
+
+#logo {
+  grid-column: 2/3;
+  font-size: 24px;
+}
+
+.burger {
+  justify-self: flex-end;
+}
+
+section {
+  display: flex;
+  height: 80vh;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero {
+  height: 70%;
+  width: 100%;
+  position: relative;
+}
+
+.hero img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.headline {
+  position: absolute;
+  top: 70%;
+  left: 5%;
+  font-size: 40px;
+  transform: translate(-20%, -70%);
+}
+
+.hero::after {
+  content: "";
+  background: black;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  opacity: 0.1;
+}
