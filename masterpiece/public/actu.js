@@ -13,3 +13,11 @@ tl.fromTo(
   { width: "100%" },
   { width: "80%", ease: Power2.easeInOut }
 );
+
+// var comment = [
+//   { name: "User One", date: "Today", body: "ceci est un commentaire" }
+// ];
+
+// for( var i=0; 1<comment.length;i++){
+//   var html =
+// };

@@ -20,34 +20,34 @@ nav {
   animation-fill-mode: forwards;
 }
 
-/* nav:hover {
-    float: right;
-    animation: forwards;
-    animation-iteration-count: infinite;
-    animation-fill-mode: forwards;
-    background: linear-gradient(to left, rgb(255, 255, 255), rgb(226, 237, 248));
-    color: black;
-    height: 50px;
-    width: 80%;
-    position: fixed;
-    border-radius: 0 0 400px;
-    z-index: 1;
-    animation-fill-mode: forwards;
-  } */
+nav:hover {
+  float: right;
+  animation: forwards;
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
+  background: linear-gradient(to left, rgb(255, 255, 255), rgb(226, 237, 248));
+  color: black;
+  height: 50px;
+  width: 80%;
+  position: fixed;
+  border-radius: 0 0 400px;
+  z-index: 1;
+  animation-fill-mode: forwards;
+}
 
 // nav:hover {
 //   animation-duration: 0.5s;
 //   animation-name: runnin;
 // }
 
-@keyframes runnin {
-  from {
-    width: 10%;
-  }
-  to {
-    width: 80%;
-  }
-}
+// @keyframes runnin {
+//   from {
+//     width: 10%;
+//   }
+//   to {
+//     width: 80%;
+//   }
+// }
 
 nav li {
   display: inline-block;
@@ -292,3 +292,4 @@ footer {
   width: 100%;
   margin-top: 130vh;
 }
+

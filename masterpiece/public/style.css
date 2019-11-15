@@ -13,6 +13,7 @@ nav {
   border-radius: 0 0 400px;
   z-index: 1;
   animation-fill-mode: forwards;
+  overflow: hidden;
 }
 
 nav li {
@@ -224,28 +225,21 @@ nav {
   animation-fill-mode: forwards;
 }
 
-/* nav:hover {
-    float: right;
-    animation: forwards;
-    animation-iteration-count: infinite;
-    animation-fill-mode: forwards;
-    background: linear-gradient(to left, rgb(255, 255, 255), rgb(226, 237, 248));
-    color: black;
-    height: 50px;
-    width: 80%;
-    position: fixed;
-    border-radius: 0 0 400px;
-    z-index: 1;
-    animation-fill-mode: forwards;
-  } */
-@keyframes runnin {
-  from {
-    width: 10%;
-  }
-  to {
-    width: 80%;
-  }
+nav:hover {
+  float: right;
+  animation: forwards;
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
+  background: linear-gradient(to left, white, #e2edf8);
+  color: black;
+  height: 50px;
+  width: 80%;
+  position: fixed;
+  border-radius: 0 0 400px;
+  z-index: 1;
+  animation-fill-mode: forwards;
 }
+
 nav li {
   display: inline-block;
   float: right;
@@ -287,16 +281,17 @@ nav li:hover {
   height: 80vh;
   justify-content: center;
   align-items: center;
+  margin-top: 200px;
 }
 
-.section1 {
-  margin-top: 200px;
-  max-width: 500px;
-  margin-left: 50px;
+.section1 p,
+h2 {
+  font-size: 17px;
+  margin-left: 40px;
 }
 
 .card {
-  margin-left: 800px;
+  margin-left: 500px;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
@@ -305,6 +300,7 @@ nav li:hover {
   transform-style: preserve-3d;
   perspective: 600px;
   transition: 0.2s;
+  border-radius: 30px;
 }
 
 .card .front {
@@ -407,18 +403,18 @@ nav li:hover {
 }
 
 .section2 .city-text p {
-  margin-left: 20%;
+  margin-left: -20%;
   background: white;
   height: 400px;
   width: 700px;
-  position: absolute;
+  position: relative;
   font-size: 2em;
 }
 
 .section3 {
   height: 100vh;
   width: 100%;
-  margin-top: 30px;
+  margin-top: 10vh;
   background: white;
   margin-left: 15px;
   margin-right: 15px;
@@ -459,9 +455,9 @@ nav li:hover {
 }
 
 .section4 {
-  height: 70vh;
+  height: 65vh;
   width: 100%;
-  margin-top: 60vh;
+  margin-top: 70vh;
   background: white;
   margin-left: 15px;
   margin-right: 15px;
@@ -488,6 +484,15 @@ footer {
   height: 30vh;
   width: 100%;
   margin-top: 130vh;
+  color: white;
+}
+
+footer p {
+  font-size: 15px;
+}
+
+footer ul {
+  color: #fff;
 }
 
 /*# sourceMappingURL=style.css.map */
