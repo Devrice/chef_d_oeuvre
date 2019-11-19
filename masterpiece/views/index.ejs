@@ -56,6 +56,12 @@
       <div class="article"></div>
       <div class="article"></div>
       <div class="article"></div>
+      <% for(var i=0; i < posts.length; i++) { %>
+        <div class="article">
+          <p><%= posts[i].id %></p>
+          <p><%= posts[i].title %></p>
+        </div>
+     <% } %>
     </section>
 
     <footer>

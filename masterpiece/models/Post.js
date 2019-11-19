@@ -1,12 +1,8 @@
 const mongoose = require("mongoose");
 
 const PostSchema = new mongoose.Schema({
-  username: {
+  title: {
     type: String,
-    require: true
-  },
-  email: {
-    typr: String,
     require: true
   }
 });

@@ -225,6 +225,8 @@ nav {
   animation-fill-mode: forwards;
 }
 
+/* REAL NAV  */
+
 nav:hover {
   float: right;
   animation: forwards;
